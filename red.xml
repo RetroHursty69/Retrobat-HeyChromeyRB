@@ -1,0 +1,354 @@
+<!--
+theme name:     HeyChromey! October 2022 suited for 16:9
+creator:		Dwayne Hurst (aka Hursty)
+version         1.0
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme defaultView="theme">
+   <formatVersion>7</formatVersion>
+
+
+<feature supported="carousel">
+   <view name="system">
+     <image name="logo">
+	   <path>./${system.theme}/_inc/red_system.png</path>  
+	   </image>    	   		
+   
+      <helpsystem name="help"> 
+         <textColor>808080</textColor>
+         <iconColor>808080</iconColor>		 
+      </helpsystem>	  
+
+   <image name="background1" extra="true">	
+       <path>./_inc/images/red_background1.png</path>		 
+   </image>
+   
+   <image name="background22" extra="true">	
+       <path>./_inc/images/red_background4.png</path>		 
+   </image> 
+   
+   <image name="background12" extra="true">	
+       <path>./_inc/images/red_background3.png</path>		 
+   </image> 
+   
+   <image name="background2" extra="true">	
+       <path>./_inc/images/red_mainbartop.png</path>		 
+   </image> 
+   
+   <image name="background3" extra="true">	
+       <path>./_inc/images/red_mainbarbottom.png</path>			 
+   </image>
+   
+   <image name="background4" extra="true">	
+       <path>./_inc/images/red_mainmiddlecircle.png</path>			 
+   </image>   
+		 
+     <image name="headerL" extra="true">	
+        <path>./_inc/red_system.png</path>	 
+	   </image>	
+		 
+      <text name="systemInfo">     
+         <color>ff6161</color>	 
+      <glowColor>8f0000</glowColor>	  
+      </text>	   
+   </view>
+  
+--------------------------------------------------------------------------------------------------------------------   
+  <view name="gamecarousel">  
+  	<video name="background15" extra="true">	
+       <path>./_inc/videos/red_particles2.mp4</path>		 
+    </video>
+	
+    <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
+         <pos>1 1</pos>
+      </text>
+	  
+      <text name="md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount,md_lbl_players,md_developer, md_publisher, md_genre, md_playcount, md_lastplayed,md_description,md_players,md_releasedate">
+         <color>ffffff</color>
+      </text>
+	  
+   	<image name="background20" extra="true">	
+       <path>./_inc/images/red_carousel1.png</path>		 
+    </image>
+
+   	<image name="background60" extra="true">	
+       <path>./_inc/images/red_curve.png</path>		 
+    </image>	
+	
+   	<image name="background40" extra="true">	
+       <path>./_inc/images/carousel_shade.png</path>			 
+    </image>	
+          
+   	<image name="background34" extra="true">	
+       <path>./_inc/images/red_mainmiddlecircle.png</path>			 
+    </image>
+	
+   	<image name="background35" extra="true">	
+       <path>./_inc/images/red_mainmiddlecircle.png</path>			 
+    </image> 
+	
+   	<image name="background36" extra="true">	
+       <path>./_inc/images/red_mainmiddlecircle.png</path>			 
+    </image>
+	
+      <image name="logo" extra="true">
+        <path>./_inc/red_system.png</path>		 
+      </image>  
+	  
+      <helpsystem name="help">		 
+         <textColor>000000</textColor>
+         <iconColor>0126c5</iconColor>
+      </helpsystem>	  
+</view>   
+-------------------------------------------------------------------------------------------------------------------
+  <view name="basic">  
+  	<video name="background15" extra="true">	
+       <path>./_inc/videos/red_particles2.mp4</path>	
+    </video>
+ 
+   	<image name="background20" extra="true">	
+       <path>./_inc/images/red_basic1.png</path>		 
+    </image>
+	
+   	<image name="background40" extra="true">	
+       <path>./_inc/images/basic_shade.png</path>				 
+    </image>
+	
+   	<image name="background21" extra="true">	
+       <path>./_inc/images/red_basic2.png</path>			 
+    </image>
+	
+   	<image name="background22" extra="true">	
+       <path>./_inc/images/red_basic3.png</path>			 
+    </image>
+	
+  	<image name="background23" extra="true">	
+       <path>./_inc/images/red_basic2.png</path>			 
+    </image>
+	
+   	<image name="background24" extra="true">	
+       <path>./_inc/images/red_basic3.png</path>		 
+    </image>
+	
+      <textlist name="gamelist">
+	     <selectedColor>e10000</selectedColor>     
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+      </textlist>        
+	  
+    
+      <image name="logo" extra="true">	
+        <path>./_inc/red_system.png</path>			 
+      </image>  
+
+      <image name="logo2" extra="true">	
+        <path>./_inc/red_system.png</path>		 
+      </image>  
+	  
+      <helpsystem name="help">	 
+         <textColor>000000</textColor>
+         <iconColor>0126c5</iconColor>
+      </helpsystem>
+	  
+</view>   
+-------------------------------------------------------------------------------------------------------------------
+  <view name="video">  
+  	<video name="background15" extra="true">	
+       <path>./_inc/videos/red_particles2.mp4</path>		 
+    </video>
+	  
+      <text name="md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount,md_lbl_players,md_developer, md_publisher, md_genre, md_playcount, md_lastplayed,md_description,md_players,md_releasedate">
+         <color>ffffff</color>
+      </text>
+	  
+      <rating name="md_rating">
+         <filledPath>./_inc/images/red_star_filled.png</filledPath>        
+      </rating>	
+	  
+      <text name="md_genre">
+         <color>e10000</color>         		 
+      </text>
+ 	  
+      <text name="md_description">
+         <color>ffffff</color>       
+      </text>
+	  
+   	<image name="background20" extra="true">	
+       <path>./_inc/images/red_carousel1.png</path>		 
+    </image>
+	
+   	<image name="background40" extra="true">	
+       <path>./_inc/images/carousel_shade.png</path>			 
+    </image>	
+
+
+      <textlist name="gamelist">
+	     <selectedColor>e10000</selectedColor>     
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>    
+      </textlist> 
+	  
+   	<image name="background34" extra="true">	
+       <path>./_inc/images/red_mainmiddlecircle.png</path>			 
+    </image>
+	
+   	<image name="background35" extra="true">	
+       <path>./_inc/images/red_mainmiddlecircle.png</path>		 
+    </image>
+	
+   	<image name="background21" extra="true">	
+       <path>./_inc/images/red_basic2.png</path>		 
+    </image>
+	
+   	<image name="background36" extra="true">	
+       <path>./_inc/images/red_mainmiddlecircle.png</path>		 
+    </image>
+	
+      <image name="logo" extra="true">		
+        <path>./_inc/red_system.png</path>			 
+      </image>  
+	  
+      <helpsystem name="help">	 
+         <textColor>000000</textColor>
+         <iconColor>0126c5</iconColor>
+      </helpsystem>
+	  
+</view>   
+-------------------------------------------------------------------------------------------------------------------
+<view name="detailed">  
+  	<video name="background15" extra="true">	
+       <path>./_inc/videos/red_particles2.mp4</path>		 
+    </video>
+	  
+      <text name="md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount,md_lbl_players,md_developer, md_publisher, md_genre, md_playcount, md_lastplayed,md_description,md_players,md_releasedate">
+         <color>ffffff</color>
+      </text>
+	  
+      <rating name="md_rating">
+         <filledPath>./_inc/images/red_star_filled.png</filledPath>        
+      </rating>	
+	  
+      <text name="md_genre">
+         <color>e10000</color>         		 
+      </text>
+ 	  
+      <text name="md_description">
+         <color>ffffff</color>       
+      </text>
+	  
+   	<image name="background20" extra="true">	
+       <path>./_inc/images/red_carousel1.png</path>		 
+    </image>
+	
+   	<image name="background40" extra="true">	
+       <path>./_inc/images/carousel_shade.png</path>			 
+    </image>	
+
+
+      <textlist name="gamelist">
+	     <selectedColor>e10000</selectedColor>     
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>    
+      </textlist> 
+	  
+   	<image name="background34" extra="true">	
+       <path>./_inc/images/red_mainmiddlecircle.png</path>			 
+    </image>
+	
+   	<image name="background35" extra="true">	
+       <path>./_inc/images/red_mainmiddlecircle.png</path>		 
+    </image>
+	
+   	<image name="background21" extra="true">	
+       <path>./_inc/images/red_basic2.png</path>		 
+    </image>
+	
+   	<image name="background36" extra="true">	
+       <path>./_inc/images/red_mainmiddlecircle.png</path>		 
+    </image>
+	
+      <image name="logo" extra="true">		
+        <path>./_inc/red_system.png</path>			 
+      </image>  
+	  
+      <helpsystem name="help">	 
+         <textColor>000000</textColor>
+         <iconColor>0126c5</iconColor>
+      </helpsystem>	  
+</view>   
+-------------------------------------------------------------------------------------------------------------------
+<view name="grid">  
+  	<video name="background15" extra="true">	
+       <path>./_inc/videos/red_particles2.mp4</path>		 
+    </video>
+ 
+   	<image name="background20" extra="true">	
+       <path>./_inc/images/red_basic1.png</path>		 
+    </image>
+	
+   	<image name="background40" extra="true">	
+       <path>./_inc/images/grid_shade.png</path>			 
+    </image>
+	
+   	<image name="background21" extra="true">	
+       <path>./_inc/images/red_basic2.png</path>		 
+    </image>
+	
+   	<image name="background22" extra="true">	
+       <path>./_inc/images/red_basic3.png</path>		 
+    </image>
+	
+  	<image name="background23" extra="true">	
+       <path>./_inc/images/red_basic2.png</path>			 
+    </image>
+	
+    
+      <image name="logo" extra="true">	
+        <path>./_inc/red_system.png</path>		 
+      </image> 
+	  
+	  
+      <helpsystem name="help">	 
+         <textColor>000000</textColor>
+         <iconColor>0126c5</iconColor>
+      </helpsystem>
+
+      <text name="md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount,md_lbl_players,md_developer, md_publisher, md_genre, md_playcount, md_lastplayed,md_description,md_players,md_releasedate">
+         <color>ffffff</color>
+      </text>
+
+      <text name="md_players">
+         <color>e10000</color>                  
+      </text>
+
+      <datetime name="md_releasedate">
+         <color>e10000</color>                  
+      </datetime>	
+	  
+      <rating name="md_rating">
+         <filledPath>./_inc/images/red_star_filled.png</filledPath>     
+      </rating>
+
+      <text name="md_genre">
+         <color>e10000</color>              
+      </text> 
+	  
+      <text name="md_lbl_playcount">
+         <pos>1.535 0.145</pos>
+         <size>0.13 0.02</size>
+         <zIndex>5</zIndex>                   
+      </text>
+                          
+      <text name="md_description">
+         <color>0126c5</color>       
+      </text>
+  
+	
+</view>  
+
+------------------------------------------------------------------------------------------------------------------- 
+
+</feature>
+ 
+</theme>
